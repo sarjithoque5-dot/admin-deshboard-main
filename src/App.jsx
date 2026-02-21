@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import PendingWashers from "./pages/PendingWashers";
 import ApprovedWashers from "./pages/ApprovedWashers";
 import Bookings from "./pages/Bookings";
-import Complaints from "./pages/Complaints";
 import WasherBalances from "./pages/WasherBalances";
 import PendingBookings from "./pages/PendingBookings";
 import AutoDelete from "./pages/AutoDelete";
@@ -36,7 +35,6 @@ function App() {
                 <Route path="/" element={<PendingWashers />} />
                 <Route path="/approved" element={<ApprovedWashers />} />
                 <Route path="/bookings" element={<Bookings />} />
-                <Route path="/complaints" element={<Complaints />} />
                 <Route path="/balances" element={<WasherBalances />} />
                 <Route path="/pending-bookings" element={<PendingBookings />} />
               </Routes>
